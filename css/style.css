@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Marhey:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Exo 2", sans-serif;
+}
+/* Box 1 */
+.box {
+  height: 100vh;
+  background-image: url(../img/ilan.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#box_alt {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 120px;
+}
+.box h1 {
+  color: #d7d46f;
+  font-family: "Marhey", sans-serif;
+  font-size: 50px;
+  text-transform: capitalize;
+  text-shadow: 0px 2px 10px rgba(213, 220, 49, 0.6);
+}
+.box h2 {
+  color: white;
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-family: "Marhey", sans-serif;
+  text-transform: capitalize;
+}
+.box p {
+  color: #f3dfb8;
+  font-size: 18px;
+}
+#serp {
+  color: #72571a;
+  text-shadow: 0px 4px 7px rgba(213, 220, 49, 0.6);
+  font-size: 22px;
+  font-style: italic;
+}
+.box input {
+  background: #72571a;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgb(255 231 129);
+  -moz-box-shadow: 0px 0px 15px 0px rgb(255 231 129);
+  box-shadow: 0px 0px 15px 0px rgb(255 231 129);
+}
+
+/* Box2 */
+.box2 {
+  height: 100vh;
+  text-align: center;
+  background-color: #edd1b4;
+  padding: 15px 110px;
+}
+.box2 p {
+  text-align: justify;
+}
+.box2 img {
+  width: 50%;
+}
+.box2 h1 {
+  font-size: 44px;
+  color: #3d2828;
+  font-family: "Marhey", sans-serif;
+  text-shadow: 0px 2px 10px rgb(0 0 0 / 60%);
+}
+.box2 p:nth-of-type(2) {
+  font-weight: bold;
+}
+.box2 img {
+  margin-top: 50px;
+}
