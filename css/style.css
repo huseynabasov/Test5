@@ -19,8 +19,7 @@
 }
 #box_alt {
   margin: 0 auto;
-  width: 50%;
-  padding-top: 120px;
+  padding: 100px 290px; 
 }
 .box h1 {
   color: #d7d46f;
