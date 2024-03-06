@@ -16,11 +16,13 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-}
-#box_alt {
   margin: 0 auto;
   padding: 100px 290px; 
 }
+/*#box_alt {
+  margin: 0 auto;
+  padding: 100px 290px; 
+}*/
 .box h1 {
   color: #d7d46f;
   font-family: "Marhey", sans-serif;
